@@ -1,0 +1,29 @@
+{
+    "name": "5ini99/worker-api",
+    "description": "worker web api server",
+    "homepage": "https://github.com/5ini99/worker-api",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "xiaobo.sun",
+            "email": "xiaobo.sun@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/5ini99/worker-api/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "workerman/workerman" : ">=3.1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "worker\\api\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
